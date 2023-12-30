@@ -3,7 +3,7 @@
 
 Bienvenue sur le GitHub présentant notre projet Python pour la data science réalisé dans le cadre de notre année de M1 à l'ENSAE.
 
-Notre objectif est le suivant : nous souhaitons identifier les caractéristiques d'un jeu vidéo qui impactent son succès pour ensuite prédire le succès du jeu en fonction de ses caractéristiques. Il suffit d'exécuter le notebook principal
+Notre objectif est le suivant : nous souhaitons identifier les caractéristiques d'un jeu vidéo qui impactent son succès pour ensuite prédire le succès du jeu en fonction de ses caractéristiques. Il suffit d'exécuter le notebook principal (main.ipynb) pour voir nos travaux.
 
 ## Structure du Projet
 
