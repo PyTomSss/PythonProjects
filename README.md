@@ -4,7 +4,7 @@
 Bienvenue sur le GitHub présentant notre projet Python pour la data science réalisé dans le cadre de notre année de M1 à l'ENSAE.
 
 L'objectif est le suivant : nous souhaitons identifier les caractéristiques d'un jeu vidéo qui impactent son succès auprès des joueurs. Succès qui est mesuré par la note moyenne attribuée au jeu par des sites spécialisés (les notes sont extraites du site Métacritic -> https://www.metacritic.com). 
-Il suffit d'exécuter le notebook principal (main.ipynb) pour voir nos travaux.
+Il suffit d'exécuter le notebook principal (Project_Notebook.ipynb) pour voir nos travaux.
 
 
 ## Méthodologie 
