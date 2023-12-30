@@ -37,26 +37,12 @@ Pour exécuter l'intégralité du notebook principal (main.ipynb), il est néces
 
 ### Webscrapping
 ```bash
+!pip install unicode
+!pip install unidecode
+!pip install requests_html
+!pip install igdb-api-v4
+!pip install requests
 
-```
-
-### Visualisation et Analyse Descriptive
-```bash
-!pip install plotly
-!pip install fancyimpute
-```
-
-### Modélisation
-```bash
-!pip install scikit-learn
-!pip install seaborn
-!pip install fancyimpute
-!pip install statsmodels
-```
-
-## Importation des Packages
-
-```python
 import requests 
 import urllib
 import bs4
@@ -76,7 +62,43 @@ from igdb.igdbapi_pb2 import MultiplayerModeResult
 from igdb.igdbapi_pb2 import ArtworkResult
 from igdb.igdbapi_pb2 import AgeRatingResult
 from igdb.igdbapi_pb2 import CompanyResult
+from igdb.igdbapi_pb2 import CollectionResult
+from igdb.igdbapi_pb2 import GameEngineResult
+from igdb.igdbapi_pb2 import FranchiseResult
 ```
 
-Vous pouvez copier-coller ces instructions dans votre fichier README.md pour une meilleure lisibilité sur GitHub. N'hésitez pas à ajuster la mise en forme selon vos préférences.
+### Visualisation et Analyse Descriptive
+```bash
+!pip install plotly
+!pip install fancyimpute
 
+from collections import Counter
+import numpy as np
+import pandas as pd
+import ast
+import matplotlib.pyplot as plt
+from matplotlib.colors import LinearSegmentedColormap
+import plotly.express as px
+```
+
+### Modélisation
+```bash
+from fancyimpute import KNN
+import seaborn as sns
+import statsmodels.api as sm
+import statsmodels.formula.api as smf
+import sklearn.metrics
+
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import RobustScaler
+from sklearn.cluster import KMeans
+
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import LassoCV
+from sklearn.linear_model import RidgeCV
+from sklearn.metrics import mean_squared_error, mean_absolute_error
+from sklearn.linear_model import BayesianRidge
+from sklearn.svm import SVR
+```
