@@ -3,7 +3,7 @@
 
 Bienvenue sur le GitHub présentant notre projet Python pour la data science réalisé dans le cadre de notre année de M1 à l'ENSAE.
 
-Notre objectif est le suivant : nous souhaitons identifier les caractéristiques d'un jeu vidéo qui impactent son succès pour ensuite prédire le succès du jeu en fonction de ses caractéristiques.
+Notre objectif est le suivant : nous souhaitons identifier les caractéristiques d'un jeu vidéo qui impactent son succès pour ensuite prédire le succès du jeu en fonction de ses caractéristiques. Il suffit d'exécuter le notebook principal
 
 ## Structure du Projet
 
@@ -33,7 +33,7 @@ Notre objectif est le suivant : nous souhaitons identifier les caractéristiques
 
 ## Installation des Packages
 
-Pour exécuter l'intégralité du notebook principal (main.ipynb), il est nécessaire d'installer au préalable les packages suivants:
+Pour exécuter l'intégralité du notebook principal, il est nécessaire d'installer au préalable les packages et modules suivants:
 
 ### Webscrapping
 ```bash
@@ -102,3 +102,4 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error
 from sklearn.linear_model import BayesianRidge
 from sklearn.svm import SVR
 ```
+
