@@ -9,7 +9,7 @@ Il suffit d'exécuter le notebook principal (main.ipynb) pour voir nos travaux.
 
 ## Méthodologie 
 
-1) Collecte des données :
+### 1) Collecte des données :
 
 Pour constituer notre base de données, nous avons choisi d'extraire les jeux vidéos répertoriés sur Wikipédia comme étant sortis après 2016. Nous avons donc scrappé la liste de leurs titres sur Wikipédia puis, pour chacun d'entre eux, nous avons récupéré la note qui leur a été attribuée dans leur review sur le site Métacritic. Cette note est un aggrégat des critiques faites par des sites spécialisés dans les jeux vidéos : le Métascore. 
 
@@ -17,15 +17,15 @@ Nous sommes partis du postulat que cette note était un des meilleurs indicateur
 
 Puis nous nous sommes appuyés sur une API (https://api-docs.igdb.com/#getting-started) qui permet d'obtenir de nombreuses informations sur un jeu vidéo à partir de son titre (developer, graphismes...) afin de constituer la base de données avec laquelle nous allons tenter de créer un modèle prédictif des Métascores à partir de certaines caractéristiques des jeux vidéos. 
 
-2) Nettoyage des données :
+### 2) Nettoyage des données :
 
 Le but de cette partie a été d'obtenir un dataframe plus propre afin de faciliter son analyse. Nous avons donc transformé des variables catégorielles (comme le genre du jeu vidéo) en de nouvelle variables binaires et créer des variables composites qui nous semblaient à partir des informations du dataframe (comme la varible "Moyenne des jeux similaires". 
 
-3) Analyse Descriptive :
+### 3) Analyse Descriptive :
 
 Cette partie a consisté en l'analyse descriptive de notre dataframe afin d'avoir une idée des grandes tendances et de l'importance de chacune des variables : graphiques descriptifs, matrice de corrélation des variables, régressions simples...
 
-4) Modélisation :
+### 4) Modélisation :
 
 Enfin, le but de cette partie a été de comparer les résultats de différents modèles prédictifs afin de voir lequel est le plus efficace pour prédire la note d'un jeu à partir de ses caractéristiques. Nous avons aussi tenté une ACP afin de résumer au mieux l'information contenue dans notre dataframe et voir quelles implications cela pouvait avoir sur la qualité prédictive des différents modèles. 
 
